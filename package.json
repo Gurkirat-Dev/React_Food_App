@@ -2,10 +2,12 @@
   "name": "episode_04",
   "version": "1.0.0",
   "description": "talk is cheap, Show me the code",
+  "homepage": "https://gurkirat-dev.github.io/React_Food_App/",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
     "test": "jest",
+    "predeploy" : "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "author": "Gurkirat Singh",
