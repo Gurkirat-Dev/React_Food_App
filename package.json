@@ -1,0 +1,33 @@
+{
+  "name": "episode_04",
+  "version": "1.0.0",
+  "description": "talk is cheap, Show me the code",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Gurkirat Singh",
+  "license": "ISC",
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.8.2",
+    "@tailwindcss/postcss": "^4.1.10",
+    "formik": "^2.4.6",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-redux": "^9.2.0",
+    "react-router": "^7.6.0",
+    "react-router-dom": "^7.6.0",
+    "tailwindcss": "^4.1.10",
+    "yup": "^1.6.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.27.2",
+    "@babel/preset-typescript": "^7.27.1",
+    "@testing-library/react": "^16.3.0",
+    "gh-pages": "^6.3.0",
+    "jest": "^30.0.0",
+    "parcel": "^2.15.0"
+  }
+}
