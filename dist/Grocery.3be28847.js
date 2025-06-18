@@ -1,2 +1,0 @@
-var e=globalThis.parcelRequire3c57;(0,e.register)("loR3J",function(l,r){Object.defineProperty(l.exports,"__esModule",{value:!0,configurable:!0}),Object.defineProperty(l.exports,"default",{get:()=>i,set:void 0,enumerable:!0,configurable:!0});var t=e("ayMG0"),i=()=>(0,t.jsx)("div",{className:"flex justify-center items-center h-full w-full",children:(0,t.jsx)("h1",{className:"text-9xl mt-50",children:"Coming Soon"})})});
-//# sourceMappingURL=Grocery.3be28847.js.map
