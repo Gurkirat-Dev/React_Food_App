@@ -14,7 +14,7 @@ import { Suspense, lazy } from "react";
 import { Provider } from "react-redux";
 import appStore from "./utils/appStore";
 
-const Grocery = lazy(() => import("./components/Grocery"));
+const Grocery = lazy(() =>  import("../src/components/Grocery"));
 const AppLayout = () => {
   return (
     <div className="app">
